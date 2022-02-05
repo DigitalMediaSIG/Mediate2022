@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <meta name="twitter:widgets:csp" content="on">
+  <meta name="twitter:dnt" content="on">
+
+  <title>MEDIATE Workshop 2022</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="vendor/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    h3 {
+      text-align: center;
+      font-size: 100%;
+      color: rgb(100, 220, 220);
+      letter-spacing: .5em;
+    }
+
+    .nobul {
+      list-style-type: none;
+      margin-top: 20px;
+    }
+
+    .glitch {
+      color: white;
+      font-size: 4em;
+      letter-spacing: .5em;
+    }
+
+    .header-bg {
+      margin-top: 60px;
+      background: linear-gradient(rgba(10, 10, 10, .6), rgba(0, 0, 0, .9)), repeating-linear-gradient(0, transparent, transparent 2px, black 3px, black 3px),
+        url('https://images.unsplash.com/photo-1506399558188-acca6f8cbf41?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=7118759521e3184778a3b5e010e202c6');
+    }
+
+    h1 {
+      text-shadow: 1px 1px 0px #f0f, -1px -1px 0 #0ff;
+      font-size: 100%;
+      text-align: center;
+      text-shadow: 2px 3px 0px #f0f, -2px -2px 0 #0ff;
+      word-wrap: break-word;
+    }
+
+    .same-space {
+      height: 80px;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+      color: rgba(255, 255, 255) !important;
+    }
+
+    .infobox {
+      border: 3px dashed black;
+      padding: 15px;
+    }
+  </style>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162677999-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-162677999-3');
+  </script>
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/logo-white-stroke.png"
+          style="height:40px;"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#overview">Overview</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#invitedspeakers">Invited Speakers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#schedule">Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#callforpapers">Call for Papers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#organizers">Organizers</a>
+          </li>
+          <li class="nav-item">
+          <div class="dropdown">
+            <button class="nav-link btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Digital Media SIG</button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="https://digitalmediasig.github.io">Special Interest Group</a>
+              <a class="dropdown-item" href="https://digitalmediasig.github.io/Framing2020">Framing 2020 (CMSC)</a>
+              <a class="dropdown-item" href="https://digitalmediasig.github.io/Mediate2020">Mediate 2020 (ICWSM)</a>
+              <a class="dropdown-item" href="https://digitalmediasig.github.io/Mediate2021">Mediate 2021 (ICWSM)</a>
+              
+            </div>
+          </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="http://twitter.com/MediateWorkshop"><i
+                class="fa fa-twitter-square" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="bg-primary text-white header-bg">
+    <div class="container text-center">
+      <h1 class="glitch">MEDIATE</h1>
+      <h3 class="sub">ICWSM-2022 WORKSHOP</h3>
+    </div>
+  </header>
+
+  <section id="overview">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Overview</h2>
+          <p class="lead">The third MEDIATE workshop will be held on <em
+              class="lead text-center font-weight-bold">June 6</em>, as part of the <a
+              href="https://www.icwsm.org/2022/index.html">International AAAI Conference on Web and Social Media
+              (ICWSM)</a>. The main goal of the workshop is to bring together media practitioners and technologists to
+            discuss new opportunities and obstacles that arise in the modern era of information diffusion. This year's
+            theme is: <em class="lead text-center font-weight-bold">Misinformation: new directions in automation,
+            real-world applications, and interventions</em>. You can also check the program and recorded talks of the <a href="https://digitalmediasig.github.io/Mediate2020"> 2020</a> and <a href="https://digitalmediasig.github.io/Mediate2021"> 2021</a> editions of MEDIATE.</p>
+	        <!-- <p  class="lead">The contributed papers of the workshop were published in the <a href="http://workshop-proceedings.icwsm.org">Workshop Proceedings of ICWSM</a>, and all the talks are <a href="https://www.youtube.com/watch?v=WwcmlbqYjE8&list=PLfNOQlmqSceXGMJ-o6p2e50-Vh7geCveW">publicly available online</a>.</p> -->
+          <!-- <p  class="lead">The contributed papers of the workshop were published in the <a href="http://workshop-proceedings.icwsm.org">Workshop Proceedings of ICWSM</a>, and all the talks are <a href="https://icwsm.org/virtual/2020/workshops_5.html">publicly available online</a>.</p> -->
+        </div>
+        <div class="col-lg-4 mx-auto">
+          <a class="twitter-timeline" data-height="300" data-dnt="true" data-theme="dark" href="https://twitter.com/MediateWorkshop?ref_src=twsrc%5Etfw">Tweets by MediateWorkshop</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section id="overview">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Covid-19 Logistics</h2>
+          <p class="lead">ICWSM-20 will be a virtual conference during the same time period, from June 8-11 2020. We will do our best to facilitate remote attendance and presentation options if needed. Like many friends, colleagues and conferences, we have to reinvent how conferences can be held virtually. Our workshop will consist of invited talks and contributed talks. For the latest updates regarding the conference and COVID-19, please check <a href="https://www.icwsm.org/2020/">https://www.icwsm.org/2020/</a>.</p>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <section id="invitedspeakers" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="mb-5">Invited Speakers</h2>
+          <h3 class="mb-5">Coming Soon!</h3>
+          <!-- <div class="row speaker">
+            <div class="col-md-4 text-center">
+              <img src="https://mevanbabakar.files.wordpress.com/2018/09/rxa5sgd1.jpg"
+                class="img-center img-fluid shadow shadow-lg--hover img-center img-fluid shadow shadow-lg--hover rounded-circle"
+                style="width: 200px;" alt="image">
+              <br />
+              <div class="mt-3"><a href="https://mevanbabakar.com"
+                  class="btn btn-warning btn-icon-only rounded-circle"><i class="fa fa-globe"></i></a></div>
+            </div>
+            <div class="col-md-8">
+              <div class="pt-4">
+                <h5 class="title same-space">
+                  <span class="d-block mb-1">Mevan Babakar</span>
+                  <small class="h6 text-muted">COO at <a href="https://fullfact.org">FullFact</a> and Board Member of <a
+                      href="https://democracyclub.org.uk">Democracy Club</a> & <a
+                      href="https://www.poynter.org/ifcn">International Fact-Checking Network</a></small>
+                </h5>
+                <h6>How can we unlock fact checking at scale?</h6>
+                <p class="h6 text-muted">A look into what it would take to be able to fact check things at scale; the systems, processes, and checks and balances that we need. How can we make better use of the information and skills we already have? How far along are we to doing that already?</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row speaker">
+            <div class="col-md-8">
+              <div class="pt-4">
+                <h5 class="title same-space">
+                  <span class="d-block mb-1">David Leslie</span>
+                  <small class="h6 text-muted">Ethics Theme Lead at the <a href="https://www.turing.ac.uk/">Alan Turing
+                      Institute</a></small>
+                </h5>
+                <h6>Governing Critical Digital Infrastructure as a Global Public Utility</h6>
+                <p class="h6 text-muted"></p>
+              </div>
+            </div>
+            <div class="col-md-4 text-center">
+              <img src="https://www.turing.ac.uk/sites/default/files/styles/people/public/2018-11/bio_pic_0.jpg"
+                class="img-center img-fluid shadow shadow-lg--hover img-center img-fluid shadow shadow-lg--hover rounded-circle"
+                style="width: 200px;" alt="image">
+              <br />
+              <div class="mt-3"><a href="https://www.turing.ac.uk/people/researchers/david-leslie"
+                  class="btn btn-warning btn-icon-only rounded-circle"><i class="fa fa-globe"></i></a></div>
+            </div>
+          </div>
+
+          <div class="row speaker">
+            <div class="col-md-4 text-center">
+              <img src="https://www.ramshajahangir.com/wp-content/uploads/2020/10/IMG-20201005-WA0015-500x630.jpg"
+                class="img-center img-fluid shadow shadow-lg--hover img-center img-fluid shadow shadow-lg--hover rounded-circle"
+                style="width: 200px;" alt="image">
+              <br />
+              <div class="mt-3"><a href="https://www.ramshajahangir.com"
+                  class="btn btn-warning btn-icon-only rounded-circle"><i class="fa fa-globe"></i></a></div>
+            </div>
+            <div class="col-md-8">
+              <div class="pt-4">
+                <h5 class="title same-space">
+                  <span class="d-block mb-1">Ramsha Jahangir</span>
+                  <small class="h6 text-muted">Journalist at <a href="https://www.codastory.com">Coda Story</a> and Scholar at <a href="https://mundusjournalism.com">Erasmus
+                      Mundus Journalism</a></small>
+                </h5>
+                <h6>Social media and public interest: Content regulation in the digital age</h6>
+                <p class="h6 text-muted">Several countries such as India, Turkey, and Pakistan have proposed laws to
+                  regulate online content. The legislations include penalties for tech companies if they fail to take
+                  down contentious posts on request from relevant authorities. Silicon Valley, on the other hand, has
+                  adopted risk regulatory interventions by de-platforming Donald Trump. With the increasing role of
+                  government regulations and platform intervention, what is the future for internet freedoms?</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row speaker">
+            <div class="col-md-8">
+              <div class="pt-4">
+                <h5 class="title same-space">
+                  <span class="d-block mb-1">Rasmus Kleis Nielsen</span>
+                  <small class="h6 text-muted">Professor at the <a href="https://www.ox.ac.uk">University of Oxford</a>
+                    and Director of the <a href="https://reutersinstitute.politics.ox.ac.uk">Reuters
+                      Institute</a></small>
+                </h5>
+                <h6>"News you don’t believe": Public perspectives on f*ke news and misinformation and what they can tell us about automated and regulatory responses</h6>
+                <p class="h6 text-muted">Users’ perspectives on what f*ke news and misinformation is and isn’t, who drives it, and where people say they see it are important for understanding the scale and scope of public concern, and how this corresponds with research insights and aligns with proposed responses to these problems, whether automated or regulatory, as well as for the credibility and even effect of responses. In this presentation, I use survey data and focus group material from Reuters Institute research to present an overview of user perspectives on “fake news” and misinformation more broadly, and identify some commonalities and differences between how, respectively, the public, researchers, and policymakers talk about these problems and how that might inform responses.</p>
+              </div>
+            </div>
+            <div class="col-md-4 text-center">
+              <img src="https://pbs.twimg.com/profile_images/1038011854805757954/gVJhWRh8_400x400.jpg"
+                class="img-center img-fluid shadow shadow-lg--hover img-center img-fluid shadow shadow-lg--hover rounded-circle"
+                style="width: 200px;" alt="image">
+              <br />
+              <div class="mt-3"><a href="https://rasmuskleisnielsen.net"
+                  class="btn btn-warning btn-icon-only rounded-circle"><i class="fa fa-globe"></i></a></div>
+            </div>
+          </div>
+
+          <div class="row speaker">
+            <div class="col-md-4 text-center">
+              <img src="https://pbs.twimg.com/profile_images/1550782625/KLerman_400x400.jpg"
+                class="img-center img-fluid shadow shadow-lg--hover img-center img-fluid shadow shadow-lg--hover rounded-circle"
+                style="width: 200px;" alt="image">
+              <br />
+              <div class="mt-3"><a href="http://www.isi.edu/integration/people/lerman"
+                  class="btn btn-warning btn-icon-only rounded-circle"><i class="fa fa-globe"></i></a></div>
+            </div>
+            <div class="col-md-8">
+              <div class="pt-4">
+                <h5 class="title same-space">
+                  <span class="d-block mb-1">Kristina Lerman</span>
+                  <small class="h6 text-muted">Principal Scientist at the <a href="https://www.isi.edu">USC Information
+                      Sciences Institute</a></small>
+                </h5>
+                <h6>Geography of the Mistrust of Science</h6>
+                <p class="h6 text-muted">Successful response to societal challenges requires sustained behavioral
+                  change. However, divergent responses to the Covid-19 pandemic in the US showed that partisanship and
+                  mistrust of institutions, including science, can increase resistance to Covid-19 mitigation measures
+                  and vaccine hesitancy. To better understand these behaviors, we explore attitudes toward science using
+                  social media posts (tweets) that have been linked through their locations to places within the US. The
+                  data allows us to study how attitudes towards science relate to socioeconomic characteristics of
+                  places from which people tweet. Our analysis reveals three types of places with distinct behaviors:
+                  large metropolitan counties, smaller metropolitan and suburban counties, and rural counties. While
+                  partisanship and race are strongly associated with the share anti-science users across all regions,
+                  income was negatively (resp. positively) associated anti-science attitudes in suburban (resp. rural)
+                  regions. We find, surprisingly, that emotions in tweets, specifically negative affect and high
+                  arousal, are expressed in suburban and rural places with many anti-science users, but not in large
+                  metropolitan areas. Importantly, these trends are not apparent in data when aggregated across all
+                  places. Our analysis demonstrates the feasibility of using geospatially-resolved social media data to
+                  monitor public attitudes on issues of social importance.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row speaker">
+            <div class="col-md-8">
+              <div class="pt-4">
+                <h5 class="title same-space">
+                  <span class="d-block mb-1">Chris Bregler</span>
+                  <small class="h6 text-muted">Director / Principal Scientist at <a href="https://research.google">Google
+                      AI</a></small>
+                </h5>
+                <h6>Context is everything: On Manipulated Media, Context Retargeting, and Misinformation Mitigation</h6>
+                <p class="h6 text-muted">Over the past years research breakthroughs in photorealistic synthesis
+                  techniques have opened up new possibilities for societally beneficial uses, but also created concerns
+                  about misuses, especially for disinformation campaigns. Examples are based on so-called DeepFakes and
+                  CheapFakes. This talk covers some of Google’s efforts in the area of mitigating these new threats and
+                  also surveys the landscape more broadly. This includes detecting manipulated media via AI systems vs
+                  human based strategies. The talk also discusses very simple but effective techniques that need no
+                  sophisticated AI techniques to generate, but are hard to detect automatically. This includes simple
+                  context retargeting of images from one domain that are reused falsely in new domains. False or
+                  misleading context without the use of DeepFakes or CheapFakes is the most prevalent type of
+                  disinformation currently spreading over social media, but this has attracted much less attention from
+                  AI researchers.</p>
+              </div>
+            </div>
+            <div class="col-md-4 text-center">
+              <img src="http://chris.bregler.com/chris_ka.jpg"
+                class="img-center img-fluid shadow shadow-lg--hover img-center img-fluid shadow shadow-lg--hover rounded-circle"
+                style="width: 200px;" alt="image">
+              <br />
+              <div class="mt-3"><a href="http://chris.bregler.com"
+                  class="btn btn-warning btn-icon-only rounded-circle"><i class="fa fa-globe"></i></a></div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="schedule">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Schedule</h2>
+          <h3 class="mb-5">Coming Soon!</h3>
+          <!-- Date & Time: <em class="font-weight-bold" id="confTime"></em>
+            <ul>
+              <li class="nobul">5 min <b>Intro</b></li>
+              <li class="nobul"><b><em>Invited Session 1 (20 min talk + 5 min Q&A)</em></b></li>
+              <li class="nobul"><u id="mevanTime"></u> <b>Mevan Babakar.</b> <em>How can we unlock fact checking at scale?</em></li>
+              <li class="nobul"><u id="davidTime"></u> <b>David Leslie.</b> <em>Governing Critical Digital Infrastructure as a Global Public Utility.</em></li>
+              <li class="nobul"><u id="ramshaTime"></u> <b>Ramsha Jahangir.</b> <em>Social media and public interest: Content regulation in the digital age.</em></li>
+              <li class="nobul">10 min <b>break</b></li>
+              <li class="nobul"><u id="contributedTime"></u> <b><em>Contributed Session (10 min talk + 2 min Q&A)</em></b></li>
+	          <ul>
+              	<li class="nobul"><b>Mohsen Mosleh.</b> <em>Reducing Inaccurate Information on Social Media.</em> [<a href="papers/MEDIATE2021_talk_1.pdf">pdf</a>]</li>
+                <li class="nobul"><b>Maurício Gruppi, Benjamin D. Horne, Sibel Adalı.</b> <em>Tell Me Who Your Friends Are: Using Content Sharing Behavior for News Source Veracity Detection.</em> [<a href="papers/MEDIATE2021_paper_1.pdf">pdf</a>]</li>
+                <li class="nobul"><b>Matthew Sumpter, Tempestt Neal.</b> <em>User Perceptions of Article Credibility Warnings: Towards Understanding the Influence of Journalists and AI Agents.</em> [<a href="papers/MEDIATE2021_paper_2.pdf">pdf</a>]</li>
+                <li class="nobul"><b>Anna Gausen, Wayne Luk, Ce Guo.</b> <em>Can We Stop Fake News? Using Agent-Based Modelling to Evaluate Countermeasures for Misinformation on Social Media.</em> [<a href="papers/MEDIATE2021_paper_3.pdf">pdf</a>]</li>
+                <li class="nobul"><b>Maurício Gruppi, Sibel Adalı, Matthew Salemi, Benjamin D. Horne.</b> <em>From Tweeting About News to Creating News Around Tweets: Characterizing Tweets Embedded in News Articles.</em> [<a href="papers/MEDIATE2021_paper_4.pdf">pdf</a>]</li>
+            </ul>
+            <li class="nobul">10 min <b>break</b></li>
+            <li class="nobul"><b><em>Invited Session 2 (20 min talk + 5 min Q&A)</em></b></li>
+            <li class="nobul"><u id="rasmusTime"></u> <b>Rasmus Kleis Nielsen.</b> <em>"News you don’t believe": Public perspectives on f*ke news and misinformation and what they can tell us about automated and regulatory responses.</em></li>
+            <li class="nobul"><u id="kristinaTime"></u> <b>Kristina Lerman.</b> <em>Geography of the Mistrust of Science.</em></li>
+            <li class="nobul"><u id="chrisTime"></u> <b>Chris Bregler.</b> <em>Context is everything: On Manipulated Media, Context Retargeting, and Misinformation Mitigation.</em></li>
+            <li class="nobul">5 min <b>Outro</b></li>
+            </ul> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="callforpapers" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Call for Papers</h2>
+          <p class="lead">Topics of interest include, but are not limited to:</p>
+          <ul class="lead">
+            <li><span class="font-weight-bold">New directions in verification automation</span>: novel automated and human-in-the-loop methods for rumour detection/verification, fact-checking, stance classification and novel relevant tasks. Submitted papers should describe how their advantages would lead to being adopted in practice by journalists and the public, e.g. improved generalisability, ability to provide explanations, reduced bias, etc. </li>
+            <li><span class="font-weight-bold">Real-world applications of automated methods</span>: success stories (e.g., trending news/events detection), challenges (e.g., misinformation detection), partial solutions to known challenges (e.g., interpretable models). </li>
+            <li><span class="font-weight-bold">Interventions</span>: effective interventions to prevent the spread of false claims, automated and semi-automated content moderation, interdisciplinary discussions on digital governance and democracy. </li>
+          </ul>
+
+          <p class="lead">We invite submissions of <span class="font-weight-bold">technical papers</span> and <span
+              class="font-weight-bold">talk proposals</span>:</p>
+          <ul class="lead">
+            <li>Technical papers must be up to <span class="font-weight-bold">4 pages</span> (short papers) or up to
+              <span class="font-weight-bold">10 pages</span> (long papers). Technical papers must contain novel,
+              previously-unpublished material related to the topics of the workshop. Accepted papers will be presented
+              orally and will appear in the workshop proceedings.
+            </li>
+            <li>Talk proposals must be up to <span class="font-weight-bold">2 pages</span> describing the content of a
+              short talk (the actual length will be determined based on program constraints).</li>
+          </ul>
+          <p class="lead">Papers must adhere to the <a href="https://www.icwsm.org/2021/index.html#guidelines">ICWSM
+              guidelines</a> and be submitted through <a
+              href="https://easychair.org/conferences/?conf=mediate2022">EasyChair</a>. You can contact the organizers
+            (details below) for questions related to the submission or participation.</p>
+
+          <p class="lead">Important Dates (all deadlines are 23:59, <a
+              href="https://time.is/Anywhere_on_Earth">AoE</a>):</p>
+          <ul class="lead">
+            <li><span class="font-weight-bold">March 27, 2022</span>: Submission deadline</li>
+            <li><span class="font-weight-bold">April 10, 2022</span>: Authors notification</li>
+            <li><span class="font-weight-bold">April 17, 2022</span>: Camera ready deadline</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="organizers">
+    <div class="container">
+      <div class="col-lg-8 mx-auto">
+        <h2 class="mb-5">Organizers</h2>
+        <div class="row">
+          <div class="col-md-4 col-lg-4 mb-0">
+            <div class="px-4 text-center">
+              <img src="assets/elena.jpeg" class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
+                style="width: 200px;" alt="image">
+              <div class="pt-4 text-center">
+                <h5 class="title same-space">
+                  <span class="d-block mb-1">Elena <br /> Kochkina</span>
+                  <small class="h6 text-muted">Alan Turing Institute, Queen Mary University</small>
+                </h5>
+                <div class="mt-5">
+                  <a href="http://twitter.com/Elena_Kochkina" class="btn btn-warning btn-icon-only rounded-circle">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                  <a href="mailto:ekochkina@turing.ac.uk" class="btn btn-warning btn-icon-only rounded-circle">
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 mb mb-5">
+            <div class="px-4 text-center">
+              <img src="assets/psmeros.jpg" class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
+                style="width: 200px;" alt="image">
+              <div class="pt-4 text-center" style="margin-bottom: 40px;">
+                <h5 class="title same-space">
+                  <span class="d-block mb-1">Panayiotis <br /> Smeros</span>
+                  <small class="h6 text-muted">EPFL</small>
+                </h5>
+                <div class="mt-5">
+                  <a href="http://twitter.com/psmeros" class="btn btn-warning btn-icon-only rounded-circle">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                  <a href="mailto:panayiotis.smeros@epfl.ch" class="btn btn-warning btn-icon-only rounded-circle">
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 mb-5">
+            <div class="px-4 text-center">
+              <img src="assets/jay.jpg" class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
+                style="width: 200px;" alt="image">
+              <div class="pt-4 text-center">
+                <h5 class="title same-space">
+                  <span class="d-block mb-1">Jérémie <br /> Rappaz</span>
+                  <small class="h6 text-muted">EPFL</small>
+                </h5>
+                <div class="mt-5">
+                  <a href="http://twitter.com/jrappaz" class="btn btn-warning btn-icon-only rounded-circle">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                  <a href="mailto:jeremie.rappaz@epfl.ch" class="btn btn-warning btn-icon-only rounded-circle">
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="row">
+          <div class="col-md-4 col-lg-4 mb-0">
+            <div class="px-4 text-center">
+              <img src="assets/marya.jpg" class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
+                style="width: 200px;" alt="image">
+              <div class="pt-4 text-center">
+                <h5 class="title same-space">
+                  <span class="d-block mb-1">Marya <br /> Bazzi</span>
+                  <small class="h6 text-muted"> Alan Turing Institute, University of Warwick</small>
+                </h5>
+                <div class="mt-5">
+                  <a href="http://twitter.com/maryabazzi" class="btn btn-warning btn-icon-only rounded-circle">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                  <a href="mailto:mbazzi@turing.ac.uk" class="btn btn-warning btn-icon-only rounded-circle">
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 mb-0">
+            <div class="px-4 text-center">
+              <img src="assets/maria.jpg" class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
+                style="width: 200px;" alt="image">
+              <div class="pt-4 text-center">
+                <h5 class="title same-space">
+                  <span class="d-block mb-1">Maria <br /> Liakata</span>
+                  <small class="h6 text-muted">Alan Turing Institute, Queen Mary University</small>
+                </h5>
+                <div class="mt-5">
+                  <a href="http://twitter.com/xrysoflhs" class="btn btn-warning btn-icon-only rounded-circle">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                  <a href="mailto:mliakata@turing.ac.uk" class="btn btn-warning btn-icon-only rounded-circle">
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-4 mb-0">
+            <div class="px-4 text-center">
+              <img src="assets/arkaitz.png" class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
+                style="width: 200px;" alt="image">
+              <div class="pt-4 text-center">
+                <h5 class="title same-space">
+                  <span class="d-block mb-1">Arkaitz <br /> Zubiaga</span>
+                  <small class="h6 text-muted">Queen Mary University</small>
+                </h5>
+                <div class="mt-5">
+                  <a href="http://twitter.com/arkaitz" class="btn btn-warning btn-icon-only rounded-circle">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                  <a href="mailto:a.zubiaga@qmul.ac.uk" class="btn btn-warning btn-icon-only rounded-circle">
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="py-5 bg-primary">
+    <div class="container">
+      <p class="m-0 text-center text-white">To find out about more events sign up to <a href="https://tinyurl.com/mediasigsignup">our mailing list</a> and follow us on <a href="https://twitter.com/DigitalMediaSIG">Twitter</a>!</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scrolling-nav.js"></script>
+
+  <!-- Localize confTime -->
+  <script>
+    const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    var date = new Date('06/07/2021 01:00:00 PM UTC');
+    document.getElementById("confTime").innerHTML = months[date.getMonth()].concat(', ', date.getDate(), ' at ', (date.getHours()<10?'0':''), date.getHours(), ':00 (', Intl.DateTimeFormat().resolvedOptions().timeZone, ')');
+    var date = new Date('06/07/2021 01:05:00 PM UTC');
+    document.getElementById("mevanTime").innerHTML = ''.concat((date.getHours()<10?'0':''), date.getHours(), ':', (date.getMinutes()<10?'0':''), date.getMinutes());
+    var date = new Date('06/07/2021 01:30:00 PM UTC');
+    document.getElementById("davidTime").innerHTML = ''.concat((date.getHours()<10?'0':''), date.getHours(), ':', (date.getMinutes()<10?'0':''), date.getMinutes());
+    var date = new Date('06/07/2021 01:55:00 PM UTC');
+    document.getElementById("ramshaTime").innerHTML = ''.concat((date.getHours()<10?'0':''), date.getHours(), ':', (date.getMinutes()<10?'0':''), date.getMinutes());
+    var date = new Date('06/07/2021 03:40:00 PM UTC');
+    document.getElementById("rasmusTime").innerHTML = ''.concat((date.getHours()<10?'0':''), date.getHours(), ':', (date.getMinutes()<10?'0':''), date.getMinutes());
+    var date = new Date('06/07/2021 04:05:00 PM UTC');
+    document.getElementById("kristinaTime").innerHTML = ''.concat((date.getHours()<10?'0':''), date.getHours(), ':', (date.getMinutes()<10?'0':''), date.getMinutes());
+    var date = new Date('06/07/2021 04:30:00 PM UTC');
+    document.getElementById("chrisTime").innerHTML = ''.concat((date.getHours()<10?'0':''), date.getHours(), ':', (date.getMinutes()<10?'0':''), date.getMinutes());
+    var date = new Date('06/07/2021 02:30:00 PM UTC');
+    document.getElementById("contributedTime").innerHTML = ''.concat((date.getHours()<10?'0':''), date.getHours(), ':', (date.getMinutes()<10?'0':''), date.getMinutes());
+
+  </script>
+</body>
+
+</html>
