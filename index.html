@@ -262,30 +262,28 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2>Schedule</h2>
-          <h3 class="mb-5">Coming Soon!</h3>
-          <!-- Date & Time: <em class="font-weight-bold" id="confTime"></em>
+          <!-- <h3 class="mb-5">Coming Soon!</h3> -->
+          Date & Time: <em class="font-weight-bold" id="confTime"></em>
             <ul>
-              <li class="nobul">5 min <b>Intro</b></li>
-              <li class="nobul"><b><em>Invited Session 1 (20 min talk + 5 min Q&A)</em></b></li>
-              <li class="nobul"><u id="mevanTime"></u> <b>Mevan Babakar.</b> <em>How can we unlock fact checking at scale?</em></li>
-              <li class="nobul"><u id="davidTime"></u> <b>David Leslie.</b> <em>Governing Critical Digital Infrastructure as a Global Public Utility.</em></li>
-              <li class="nobul"><u id="ramshaTime"></u> <b>Ramsha Jahangir.</b> <em>Social media and public interest: Content regulation in the digital age.</em></li>
-              <li class="nobul">10 min <b>break</b></li>
-              <li class="nobul"><u id="contributedTime"></u> <b><em>Contributed Session (10 min talk + 2 min Q&A)</em></b></li>
-	          <ul>
-              	<li class="nobul"><b>Mohsen Mosleh.</b> <em>Reducing Inaccurate Information on Social Media.</em> [<a href="papers/MEDIATE2021_talk_1.pdf">pdf</a>]</li>
-                <li class="nobul"><b>Maurício Gruppi, Benjamin D. Horne, Sibel Adalı.</b> <em>Tell Me Who Your Friends Are: Using Content Sharing Behavior for News Source Veracity Detection.</em> [<a href="papers/MEDIATE2021_paper_1.pdf">pdf</a>]</li>
-                <li class="nobul"><b>Matthew Sumpter, Tempestt Neal.</b> <em>User Perceptions of Article Credibility Warnings: Towards Understanding the Influence of Journalists and AI Agents.</em> [<a href="papers/MEDIATE2021_paper_2.pdf">pdf</a>]</li>
-                <li class="nobul"><b>Anna Gausen, Wayne Luk, Ce Guo.</b> <em>Can We Stop Fake News? Using Agent-Based Modelling to Evaluate Countermeasures for Misinformation on Social Media.</em> [<a href="papers/MEDIATE2021_paper_3.pdf">pdf</a>]</li>
-                <li class="nobul"><b>Maurício Gruppi, Sibel Adalı, Matthew Salemi, Benjamin D. Horne.</b> <em>From Tweeting About News to Creating News Around Tweets: Characterizing Tweets Embedded in News Articles.</em> [<a href="papers/MEDIATE2021_paper_4.pdf">pdf</a>]</li>
+              <li class="nobul">10 min <b>Intro</b></li>
+              <li class="nobul"><u id="philipTime"></u> <b>Philip Resnik.</b> <em>Invited Talk.</em></li>
+              <li class="nobul"><u id="contributed1Time"></u> <b><em>Contributed Session 1 (12 min talk + 8 min Q&A)</em></b></li>
+              <ul>
+                  <li class="nobul"><b>Chenyan Jia, Angie Zhang, Alexander Boltz, Anqing Chen and Min Kyung Lee.</b> <em>Algorithmic vs. Community Label Intervention on Perceived Accuracy of Hyper-partisan Misinformation.</em></li>
+                  <li class="nobul"><b>Mohsen Mosleh and David Rand.</b> <em>Falsehood in, falsehood out Measuring exposure to elite misinformation on Twitter.</em></li>
+                  <li class="nobul"><b>Jinkyung Park, Rahul Dev Ellezhuthil, Ramanathan Arunachalam, Lauren Feldman and Vivek Singh.</b> <em>Toward Fairness in Misinformation Detection Algorithms.</em></li>
+                  <li class="nobul"><b>Manuel Pratelli and Marinella Petrocchi.</b> <em>A Structured Analysis of Journalistic Evaluations for News Source Reliability.</em></li>      
+              </ul>
+              <li class="nobul">30 min <b>Coffee break</b></li>
+              <li class="nobul"><u id="heidiTime"></u> <b>Heidi Larson.</b> <em>Invited Talk.</em></li>
+              <li class="nobul"><u id="contributed2Time"></u> <b><em>Contributed Session 2 (12 min talk + 8 min Q&A)</em></b></li>
+              <ul>
+                  <li class="nobul"><b>Wienke Strathern, Angelina Mooseder and Jurgen Pfeffer.</b> <em>The Polarizing Impact of Continuous Presence on Users' Behavior.</em></li>
+                  <li class="nobul"><b>Emily Sidnam-Mauch, Bernat Ivancsics, Ayana Monroe, Eve Washington, Errol Francis II, Kelly Caine, Joseph Bonneau and Susan E. McGregor.</b> <em>Usable Cryptographic Provenance: A Proactive Complement to Fact-Checking for Mitigating Misinformation.</em></li>
+                  <li class="nobul"><b>Manoel Horta Ribeiro, Savvas Zannettou, Oana Goga, Fabricio Benevenuto and Robert West.</b> <em>Can online attention signals help fact-checkers to fact-check?.</em></li>
+              </ul>
+              <li class="nobul"><u id="ethanTime"></u> <b>Ethan Porter.</b> <em>Invited Talk.</em></li>
             </ul>
-            <li class="nobul">10 min <b>break</b></li>
-            <li class="nobul"><b><em>Invited Session 2 (20 min talk + 5 min Q&A)</em></b></li>
-            <li class="nobul"><u id="rasmusTime"></u> <b>Rasmus Kleis Nielsen.</b> <em>"News you don’t believe": Public perspectives on f*ke news and misinformation and what they can tell us about automated and regulatory responses.</em></li>
-            <li class="nobul"><u id="kristinaTime"></u> <b>Kristina Lerman.</b> <em>Geography of the Mistrust of Science.</em></li>
-            <li class="nobul"><u id="chrisTime"></u> <b>Chris Bregler.</b> <em>Context is everything: On Manipulated Media, Context Retargeting, and Misinformation Mitigation.</em></li>
-            <li class="nobul">5 min <b>Outro</b></li>
-            </ul> -->
         </div>
       </div>
     </div>
@@ -503,23 +501,18 @@
   <!-- Localize confTime -->
   <script>
     const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-    var date = new Date('06/07/2021 01:00:00 PM UTC');
-    document.getElementById("confTime").innerHTML = months[date.getMonth()].concat(', ', date.getDate(), ' at ', (date.getHours()<10?'0':''), date.getHours(), ':00 (', Intl.DateTimeFormat().resolvedOptions().timeZone, ')');
-    var date = new Date('06/07/2021 01:05:00 PM UTC');
-    document.getElementById("mevanTime").innerHTML = ''.concat((date.getHours()<10?'0':''), date.getHours(), ':', (date.getMinutes()<10?'0':''), date.getMinutes());
-    var date = new Date('06/07/2021 01:30:00 PM UTC');
-    document.getElementById("davidTime").innerHTML = ''.concat((date.getHours()<10?'0':''), date.getHours(), ':', (date.getMinutes()<10?'0':''), date.getMinutes());
-    var date = new Date('06/07/2021 01:55:00 PM UTC');
-    document.getElementById("ramshaTime").innerHTML = ''.concat((date.getHours()<10?'0':''), date.getHours(), ':', (date.getMinutes()<10?'0':''), date.getMinutes());
-    var date = new Date('06/07/2021 03:40:00 PM UTC');
-    document.getElementById("rasmusTime").innerHTML = ''.concat((date.getHours()<10?'0':''), date.getHours(), ':', (date.getMinutes()<10?'0':''), date.getMinutes());
-    var date = new Date('06/07/2021 04:05:00 PM UTC');
-    document.getElementById("kristinaTime").innerHTML = ''.concat((date.getHours()<10?'0':''), date.getHours(), ':', (date.getMinutes()<10?'0':''), date.getMinutes());
-    var date = new Date('06/07/2021 04:30:00 PM UTC');
-    document.getElementById("chrisTime").innerHTML = ''.concat((date.getHours()<10?'0':''), date.getHours(), ':', (date.getMinutes()<10?'0':''), date.getMinutes());
-    var date = new Date('06/07/2021 02:30:00 PM UTC');
-    document.getElementById("contributedTime").innerHTML = ''.concat((date.getHours()<10?'0':''), date.getHours(), ':', (date.getMinutes()<10?'0':''), date.getMinutes());
-
+    var date = new Date('06/06/2022 08:30:00 AM EDT');
+    document.getElementById("confTime").innerHTML = months[date.getMonth()].concat(', ', date.getDate(), ' at ', (date.getHours()<10?'0':''), date.getHours(), ':', (date.getMinutes()<10?'0':''), date.getMinutes(), ' (', Intl.DateTimeFormat().resolvedOptions().timeZone, ')');
+    var date = new Date('06/06/2022 08:40:00 AM EDT');
+    document.getElementById("philipTime").innerHTML = ''.concat((date.getHours()<10?'0':''), date.getHours(), ':', (date.getMinutes()<10?'0':''), date.getMinutes());
+    var date = new Date('06/06/2022 09:10:00 AM EDT');
+    document.getElementById("contributed1Time").innerHTML = ''.concat((date.getHours()<10?'0':''), date.getHours(), ':', (date.getMinutes()<10?'0':''), date.getMinutes());
+    var date = new Date('06/06/2022 11:00:00 AM EDT');
+    document.getElementById("heidiTime").innerHTML = ''.concat((date.getHours()<10?'0':''), date.getHours(), ':', (date.getMinutes()<10?'0':''), date.getMinutes());
+    var date = new Date('06/06/2022 11:30:00 AM EDT');
+    document.getElementById("contributed2Time").innerHTML = ''.concat((date.getHours()<10?'0':''), date.getHours(), ':', (date.getMinutes()<10?'0':''), date.getMinutes());
+    var date = new Date('06/06/2022 12:30:00 PM EDT');
+    document.getElementById("ethanTime").innerHTML = ''.concat((date.getHours()<10?'0':''), date.getHours(), ':', (date.getMinutes()<10?'0':''), date.getMinutes());
   </script>
 </body>
 
